@@ -1,0 +1,64 @@
+body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: black;
+        color: #ffffff;
+
+}
+
+.App {
+        text-align: left;
+}
+
+.content {
+        padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        color: #fff;
+        width: fit-content;
+        margin: auto;
+        margin-top: 23px;
+}
+
+h1 {
+        background: linear-gradient(90deg, #17bde3, #a7e8f7, #0c7188);
+        background-size: 300%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: colorChange 5s infinite ease-in-out;
+    }
+    
+    @keyframes colorChange {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+a:hover {
+        color: #21a1f1;
+}
+
+button {
+        background-color: #21a1f1;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+}
+
+button:hover {
+        background-color: #1a81c1;
+}
