@@ -1,0 +1,1362 @@
+{
+  "appointments": {
+    "-O7eF8Qlx45Q3UHFmXcW": {
+      "age": "23",
+      "appointment_date": "2024-09-26T12:50",
+      "appointment_time": "12:50",
+      "completed": true,
+      "disease": "Neurological diseases, such as Alzheimer's, Parkinson's, or multiple sclerosis, often affect the brain, spinal cord, or nerves, leading to a range of symptoms like memory loss, tremors, muscle weakness, and coordination issues.",
+      "doctor_id": "-O7dUwf9UY1b6agngcho",
+      "email": "swapnil@gmail.com",
+      "mobile": "9307220538",
+      "patient_name": "swapnil pamu",
+      "status": "Confirmed"
+    },
+    "-O7h80dolxfkfo1hERmK": {
+      "age": "23",
+      "appointment_date": "2024-09-27T12:35",
+      "appointment_time": "12:35",
+      "disease": "fever",
+      "doctor_id": "-O7dx7DzzQUIcSzWxiFm",
+      "email": "swapnil@gmail.com",
+      "mobile": "9307220538",
+      "patient_name": "swapnil pamu",
+      "status": "Confirmed"
+    }
+  },
+  "diseases": {
+    "-O4KlRkpPBrAWyBGybtU": {
+      "description": "A condition in which your airways narrow and swell.",
+      "name": "Asthma"
+    },
+    "-O4KlRmda-RJMeGpq9Zj": {
+      "description": "Inflammation of the lining of bronchial tubes.",
+      "name": "Bronchitis"
+    },
+    "-O4KlRpARZTIcd5eftrn": {
+      "description": "A bacterial disease causing severe diarrhea and dehydration.",
+      "name": "Cholera"
+    },
+    "-O4KlRreTD8TEV1EdVDq": {
+      "description": "A group of diseases that result in too much sugar in the blood.",
+      "name": "Diabetes"
+    },
+    "-O4KlRuHS7ZIXn9LyClp": {
+      "description": "A rare and deadly disease caused by infection with a virus.",
+      "name": "Ebola"
+    }
+  },
+  "hospitals": {
+    "-O7E2pK2DktCJ5BCOBLc": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7E2pMDLLLxRlyeXQ9q": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 1,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7E2pO3TefjuqfD9l3B": {
+      "address": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "id": 2,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7E2pPsoHIOXzpjZpvg": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7E2pRrUt7QNpvmulQw": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7E2pToETkRMlvI25Dx": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 5,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7E2pW2dMaklg5MexOs": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 6,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7E2pY5Vx8sGy0QmIxR": {
+      "address": "Hospital, Kampala, Central Region, Uganda",
+      "id": 7,
+      "lat": 0.3069488,
+      "lng": 32.611402,
+      "name": "Hospital, Kampala, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7E2p_-ntiNtCMybycY": {
+      "address": "Hospital, Kiboga, Central Region, Uganda",
+      "id": 8,
+      "lat": 0.9117081,
+      "lng": 31.7766683,
+      "name": "Hospital, Kiboga, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7E2pavLYMWVPugAiPa": {
+      "address": "Hospital, Butaleja, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.8498342,
+      "lng": 33.9303266,
+      "name": "Hospital, Butaleja, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dA0mmvJ5nkHgT8Jkp": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7dA0uLAb-3Xhv6ccIv": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 1,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7dA16GfUtjbgh-L0Bm": {
+      "address": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "id": 2,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7dA1TZfXw5Z8ihnLH4": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7dA1or6rLOFK69gmlQ": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dA1vCWsyyuvs0JgXQ": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dA2BfuZ4fJ1IqYzhQ": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dA2R9Xlk7VXBV4gUk": {
+      "address": "Hospital, Kampala, Central Region, Uganda",
+      "id": 7,
+      "lat": 0.2996043,
+      "lng": 32.5865944,
+      "name": "Hospital, Kampala, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dA2dWuHBT7myRKIuS": {
+      "address": "Hospital, Oyam, Northern Region, Uganda",
+      "id": 8,
+      "lat": 2.2355093,
+      "lng": 32.3858862,
+      "name": "Hospital, Oyam, Northern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dA2p6Zs6sZ10J0pUM": {
+      "address": "Hospital, Nakaseke, Central Region, Uganda",
+      "id": 9,
+      "lat": 0.718251,
+      "lng": 32.3990573,
+      "name": "Hospital, Nakaseke, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dASTykRGmggxM5K6Q": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7dASXafZTCmzieCbtO": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 1,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7dAS_kP3ewV4A52Q1f": {
+      "address": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "id": 2,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7dASdSQz_fmNsgTxnj": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7dASgEHSAslllt27ar": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dASj1AJJK4dhBfkSi": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dASnOE0ODZse997L7": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dASqPDODfK89tIRQK": {
+      "address": "Hospital, Kampala, Central Region, Uganda",
+      "id": 7,
+      "lat": 0.2996043,
+      "lng": 32.5865944,
+      "name": "Hospital, Kampala, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dAStwkJ-1r3hIp04b": {
+      "address": "Hospital, Oyam, Northern Region, Uganda",
+      "id": 8,
+      "lat": 2.2355093,
+      "lng": 32.3858862,
+      "name": "Hospital, Oyam, Northern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dASxIop-5UcMlGggt": {
+      "address": "Hospital, Nakaseke, Central Region, Uganda",
+      "id": 9,
+      "lat": 0.718251,
+      "lng": 32.3990573,
+      "name": "Hospital, Nakaseke, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dC10iUzMGxQeYL0L-": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7dC12Zwc4rziEsAN2H": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 1,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7dC14UlyGjX4CzhMyU": {
+      "address": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "id": 2,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7dC164BOSXKUPcFxcB": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7dC18OrjbzPuai3B3Y": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dC1ACVsp1bmwoDwhV": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dC1BwmJ4IR6rn6E9E": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7dC1DdWe6zE0hP9_ac": {
+      "address": "Hospital, Kampala, Central Region, Uganda",
+      "id": 7,
+      "lat": 0.2996043,
+      "lng": 32.5865944,
+      "name": "Hospital, Kampala, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dC1FgjgHW06DyYVfV": {
+      "address": "Hospital, Oyam, Northern Region, Uganda",
+      "id": 8,
+      "lat": 2.2355093,
+      "lng": 32.3858862,
+      "name": "Hospital, Oyam, Northern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7dC1HTJ8bHujd9aAYp": {
+      "address": "Hospital, Nakaseke, Central Region, Uganda",
+      "id": 9,
+      "lat": 0.718251,
+      "lng": 32.3990573,
+      "name": "Hospital, Nakaseke, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7e7K2kOM-eYxFZa15q": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7e7K4bJ0RRKmJVawXO": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7e7K6T5w7vgJGIE6TU": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7e7K8EPCYRCRLIq70K": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7e7K9xMDO0AEkjuQ3B": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7e7KBq872uDDlSHgGp": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7e7KDZi_J2LJMTOhFV": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7e7KFMJuAOBRppPAIP": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7e7KHH8dVfAp-bZnzf": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7e7KJ-rEt5MKRyWxvK": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDTTQ51EfX1zVTXMU": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eDTV7pfP2GrTG3ySo": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDTWlnSkSmvXGmV3A": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eDTYaVUnEIhf3HdmY": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eDT_jcMUoZbO3SEzm": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDTdtz0VquLTdCxUb": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDTfStYEE35N_oSOH": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDThTUU1AEkDCJySW": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDTjG_hXyMI_pzD1W": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDTl6gMlgQa7bbDNW": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDUYhM3-cliW413FG": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eDU_FG6juHDjwgtof": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDUavAxek8uyzgzik": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eDUcVowCyofQtv7IV": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eDUe2PF7TdlIqNgKE": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDUgKpiLVojd3VivI": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDUi20O7mUWe_8ihA": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDUkEST0OeeKcrNoR": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDUlrlGo6FCeSBdK8": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDUntwzgDI0JYBvpu": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDa6P7bWWJapkVRjd": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eDa8-QGkmURCWerV4": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDa9ompcGOiJyZkf1": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eDaBR40AlOZDtTURE": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eDaD3CZk9ACc1ZMmX": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDaEkNzTPyJqlNRG8": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDaGT6kJqz31suMKF": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDaI7V2V1P1w7fzKd": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDaJneATzhFdDEsdw": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDaLR4jo-ajIb2tKU": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDr7fVataRq4-yfYR": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eDrAYaVVFnYM_fFNu": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDrCBRUqH3951i27j": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eDrFxM4oIXlXxqzvx": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eDrHYO1iaWuNf-Vh4": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDrJ6aLKIcQ7MPcFR": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDrKsTdgY4tyE6qOc": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDrMWCdp0ARZHViLm": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDrO8W99ZdsusWprr": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDrPjplDTaCVt-7OK": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDtBD4xKvAPAj-rC-": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eDtD1XzwNeTA0R2a-": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDtEq9SHBBSTCEm_B": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eDtGYQapXw2MVJqn6": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eDtI9v_OolwDlDzEx": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDtK1qp9Rs1OifuGN": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDtLhk5-TZ_5MnmVw": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDtOBf6ZpcB3Lt8XI": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDtPn1lvAlbnETscq": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDtRVjFCLKfLarGou": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDvDUV9HTmy5GljYd": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eDvF4lVbXc9Z1k7uV": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDvGlhuEtmVkBkNTP": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eDvIORJAFY8e_xyqV": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eDvKPYbPc_BmECqKo": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDvM7Pg5SlvJ2TCXT": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 5,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDvNgLlqv9A8UMjlp": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 6,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eDvPLvtdSV7yRp70b": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eDvQz20Z6JkXkMrm9": {
+      "address": "Hospital, Kabale, Western Region, Uganda",
+      "id": 8,
+      "lat": -1.2509687,
+      "lng": 29.9898809,
+      "name": "Hospital, Kabale, Western Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eDvSijRRxWTS0BHwa": {
+      "address": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "id": 9,
+      "lat": 0.9232006,
+      "lng": 34.157748,
+      "name": "Hospital, Bugisa sub-region, Mbale, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eHopuYT110sgn2gSm": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7eHorYzhl2ymRaXdy1": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 1,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7eHotHEd_S_vqIyJ18": {
+      "address": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "id": 2,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7eHoux--WTPxAwEAe3": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7eHowmlGvCVBtataWc": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eHoyMW4PLNE-Q7066": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 5,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eHozv1bqe2AyGJqFq": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 6,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7eHp0avp2pwOfPeADN": {
+      "address": "Hospital, Butaleja, Eastern Region, Uganda",
+      "id": 7,
+      "lat": 0.8498342,
+      "lng": 33.9303266,
+      "name": "Hospital, Butaleja, Eastern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eHp2FaGQdjQN6Q500": {
+      "address": "Hospital, Oyam, Northern Region, Uganda",
+      "id": 8,
+      "lat": 2.2355093,
+      "lng": 32.3858862,
+      "name": "Hospital, Oyam, Northern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7eHp4B7LBwnfBqRsMz": {
+      "address": "Hospital, Kiboga, Central Region, Uganda",
+      "id": 9,
+      "lat": 0.9117081,
+      "lng": 31.7766683,
+      "name": "Hospital, Kiboga, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7h7pNQ_bVHwuxtrwFK": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7h7pOvSFDrssQt-4AM": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 1,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7h7pQcdvFce2YiTzj6": {
+      "address": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "id": 2,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Kirsty Semple Way, Ninewells, Dundee, Dundee City, Scotland, DD2 1GZ, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7h7pSJlpWBtwCZAhBI": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7h7pU3UAkRTjy9z-PL": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7h7pVdH19_PgBkpiI4": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 5,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7h7pX7pVc5ac9K9Ayb": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 6,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7h7pYdqwa-OlGR_vSz": {
+      "address": "Hospital, Kampala, Central Region, Uganda",
+      "id": 7,
+      "lat": 0.3037468,
+      "lng": 32.5531847,
+      "name": "Hospital, Kampala, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7h7p_eSHPV618UFSRf": {
+      "address": "Hospital, Oyam, Northern Region, Uganda",
+      "id": 8,
+      "lat": 2.2355093,
+      "lng": 32.3858862,
+      "name": "Hospital, Oyam, Northern Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7h7pbERtuj5ZvlXQsA": {
+      "address": "Hospital, Pucarani, Provincia Los Andes, La Paz, Bolivia",
+      "id": 9,
+      "lat": -16.3773812,
+      "lng": -68.4732334,
+      "name": "Hospital, Pucarani, Provincia Los Andes, La Paz, Bolivia",
+      "phone": "Phone not available"
+    },
+    "-O7h9tHJvrxUcPIFf8Df": {
+      "address": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "id": 0,
+      "lat": 42.7051669,
+      "lng": -7.1013033,
+      "name": "Hospital, Pedrafita do Cebreiro, Os Ancares, Lugo, Galicia, Spain",
+      "phone": "Phone not available"
+    },
+    "-O7h9tIw_-_6q3hNBN2H": {
+      "address": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "id": 1,
+      "lat": 56.463596550000005,
+      "lng": -3.038003161321857,
+      "name": "Ninewells Hospital, Earn Crescent, Ninewells, Dundee, Dundee City, Scotland, DD2 4BR, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7h9tKZrVKHVi-Hgx_P": {
+      "address": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "id": 2,
+      "lat": 9.9333376,
+      "lng": -84.0841316,
+      "name": "Hospital, Cantón de San José, San Jose Province, 10103, Costa Rica",
+      "phone": "Phone not available"
+    },
+    "-O7h9tM9O_lWgSxw_FIh": {
+      "address": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "id": 3,
+      "lat": 52.4721802,
+      "lng": -8.4306773,
+      "name": "Hospital, The Municipal District of Cappamore — Kilmallock, County Limerick, Munster, Ireland",
+      "phone": "Phone not available"
+    },
+    "-O7h9tNfs7WmU50PBOJy": {
+      "address": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "id": 4,
+      "lat": -34.6538724,
+      "lng": -59.4351063,
+      "name": "Hospital, Mercedes, Partido de Mercedes, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7h9tPVeYiGB8KR0sUd": {
+      "address": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "id": 5,
+      "lat": -36.7807947,
+      "lng": -59.0868302,
+      "name": "Hospital, Rauch, Partido de Rauch, Buenos Aires, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7h9tR6K-aaCmZcmczv": {
+      "address": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "id": 6,
+      "lat": -32.422256000000004,
+      "lng": -63.72988313917034,
+      "name": "Hospital, Hernando, Municipio de Hernando, Pedanía Punta del Agua, Departamento Tercero Arriba, Córdoba, X5980, Argentina",
+      "phone": "Phone not available"
+    },
+    "-O7h9tStmNT8rq4lgmPf": {
+      "address": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "id": 7,
+      "lat": 56.462505300000004,
+      "lng": -3.0146273778005974,
+      "name": "Royal Victoria Hospital, Jedburgh Road, Balgay, Dundee, Dundee City, Scotland, DD2 1SP, United Kingdom",
+      "phone": "Phone not available"
+    },
+    "-O7h9tUKOr_mpSuMTcSO": {
+      "address": "Hospital, Masaka City, Central Region, Uganda",
+      "id": 8,
+      "lat": -0.3444339,
+      "lng": 31.7574437,
+      "name": "Hospital, Masaka City, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "-O7h9tVwZVIB-dgLEH8s": {
+      "address": "Hospital, Kiboga, Central Region, Uganda",
+      "id": 9,
+      "lat": 0.9117081,
+      "lng": 31.7766683,
+      "name": "Hospital, Kiboga, Central Region, Uganda",
+      "phone": "Phone not available"
+    },
+    "8hb97dbd37gvyvd8y3": {
+      "contact": 9037973273,
+      "doctors": 23,
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "location": "solapur"
+    }
+  },
+  "messages": {
+    "-O7dUwf9UY1b6agngcho_-O7dVDeL9uJpmvgknDaO": {
+      "doctor_id": "-O7dUwf9UY1b6agngcho",
+      "messages": {
+        "-O7d_Os4GrJKOO3xHtxJ": {
+          "message_text": "Heo",
+          "sender_id": "-O7dUwf9UY1b6agngcho",
+          "sender_role": "doctor",
+          "timestamp": 1727274523955
+        },
+        "-O7d__RYJ7ZkBydBFZll": {
+          "message_text": "hlo",
+          "sender_id": "-O7dVDeL9uJpmvgknDaO",
+          "sender_role": "patient",
+          "timestamp": 1727274571342
+        },
+        "-O7dae2WTe0re1JG8PBK": {
+          "message_text": "hi\n",
+          "sender_id": "-O7dVDeL9uJpmvgknDaO",
+          "sender_role": "patient",
+          "timestamp": 1727274852388
+        },
+        "-O7dbHkZe9g8aBv14ijw": {
+          "message_text": "HI",
+          "sender_id": "-O7dUwf9UY1b6agngcho",
+          "sender_role": "doctor",
+          "timestamp": 1727275019096
+        },
+        "-O7dbN20uhvhbkPcfOeR": {
+          "message_text": "hi",
+          "sender_id": "-O7dUwf9UY1b6agngcho",
+          "sender_role": "doctor",
+          "timestamp": 1727275040763
+        },
+        "-O7dbaCSMDxFXyXBxqMe": {
+          "message_text": "hello i am patient",
+          "sender_id": "-O7dVDeL9uJpmvgknDaO",
+          "sender_role": "patient",
+          "timestamp": 1727275098780
+        },
+        "-O7dbghfjs1LkgHLEPZ0": {
+          "message_text": "hello i am doctor",
+          "sender_id": "-O7dUwf9UY1b6agngcho",
+          "sender_role": "doctor",
+          "timestamp": 1727275125397
+        },
+        "-O7h1bVzYOUcm6BoYsza": {
+          "message_text": "Helo im mitanshu",
+          "sender_id": "-O7dVDeL9uJpmvgknDaO",
+          "sender_role": "patient",
+          "timestamp": 1727332514066
+        },
+        "-O7h8i2y7WxtrwBs94rN": {
+          "message_text": "heloo",
+          "sender_id": "-O7dVDeL9uJpmvgknDaO",
+          "sender_role": "patient",
+          "timestamp": 1727334375866
+        }
+      },
+      "patient_id": "-O7dVDeL9uJpmvgknDaO"
+    }
+  },
+  "news": {
+    "-O4KRo--egrQ-thFqZ9E": {
+      "category": "Research",
+      "content": "A new vaccine candidate has shown 95% efficacy in phase 3 trials...",
+      "date": "2024-08-14",
+      "title": "New COVID-19 Vaccine Shows Promise"
+    },
+    "-O4KRo1SVBUYNr2QoFr4": {
+      "category": "Public Health",
+      "content": "The Ministry of Health has launched a nationwide wellness initiative...",
+      "date": "2024-08-13",
+      "title": "Health Ministry Announces New Wellness Program"
+    },
+    "-O4KlRfh_CBQdodSd9ct": {
+      "category": "Research",
+      "content": "A new vaccine candidate has shown 95% efficacy in phase 3 trials...",
+      "date": "2024-08-14",
+      "title": "New COVID-19 Vaccine Shows Promise"
+    },
+    "-O4KlRiHj_6qKR35m06D": {
+      "category": "Public Health",
+      "content": "The Ministry of Health has launched a nationwide wellness initiative...",
+      "date": "2024-08-13",
+      "title": "Health Ministry Announces New Wellness Program"
+    }
+  },
+  "sensor_data": {
+    "-O6Js3xVm1T3FoxFTjdZ": {
+      "blood_oxygen": "10",
+      "heartrate": "34"
+    }
+  },
+  "users": {
+    "doctors": {
+      "-O7dUwf9UY1b6agngcho": {
+        "age": "",
+        "contact_number": "9307220538",
+        "email": "mitanshu@gmail.com",
+        "gender": "male",
+        "hospital_id": "8hb97dbd37gvyvd8y3",
+        "location": "",
+        "name": "Mitanshu",
+        "password": "$2b$12$RPOJA/Jf.6jzthXN7WoPUe9cCDJBQ8NoBtHGte41SrtjOl32OeIF.",
+        "role": "doctor",
+        "specialty": "Neurologist"
+      },
+      "-O7dx7DzzQUIcSzWxiFm": {
+        "age": "",
+        "contact_number": "9307220538",
+        "email": "anantpal@gmail.com",
+        "gender": "male",
+        "hospital_id": "8hb97dbd37gvyvd8y3",
+        "location": "",
+        "name": "Anantpal",
+        "password": "$2b$12$nleDDK8h9AdRvqM47kbKJe1QHytHccGtVGkzaJdgY1eRgPLnxM0Aq",
+        "role": "doctor",
+        "specialty": "Psychiatrist"
+      },
+      "-O7dxMrcK0WhUsPj4v1p": {
+        "age": "",
+        "contact_number": "9307220538",
+        "email": "yogi@gmail.com",
+        "gender": "male",
+        "hospital_id": "8hb97dbd37gvyvd8y3",
+        "location": "",
+        "name": "Yogi",
+        "password": "$2b$12$jSr3fxCdbFtUO.4ThHHlIOnM1TdWoUQf1SERjJgfh/7q1ik.h/Uqi",
+        "role": "doctor",
+        "specialty": "Pediatricians"
+      },
+      "-O7dynhnrAePRSPMsM2M": {
+        "age": "",
+        "contact_number": "9307220538",
+        "email": "Rashmi@gmail.com",
+        "gender": "female",
+        "hospital_id": "8hb97dbd37gvyvd8y3",
+        "location": "",
+        "name": "Rashmi Singh Chauhan",
+        "password": "$2b$12$Q7vs8Dz95A8XzwdyQ1EG.eOUpMjRg7aSTf.iijoS1wpIr6ll.IN1S",
+        "role": "doctor",
+        "specialty": "Anesthesiology"
+      }
+    },
+    "patients": {
+      "-O7dVDeL9uJpmvgknDaO": {
+        "age": "20",
+        "contact_number": "7507546319",
+        "email": "swapnil@gmail.com",
+        "gender": "male",
+        "hospital_id": "8hb97dbd37gvyvd8y3",
+        "location": "Solapur",
+        "name": "Swapnil",
+        "password": "$2b$12$ep1c2.p5lbhegL4rAUIEX.crKi84z94.cpfq5BXqg1K4VRnRUdd9G",
+        "role": "patient",
+        "specialty": "Neurologist"
+      },
+      "-O7h-S_T-hF5BTVpwgHq": {
+        "age": "22",
+        "contact_number": "7507546319",
+        "email": "aditya@gmail.com",
+        "gender": "male",
+        "hospital_id": "",
+        "location": "Pune",
+        "name": "Aditya",
+        "password": "$2b$12$/Fk5chDtSBOfrMdb34moyOnCZUXEahSY82lxWLKb6msWPP7btHusy",
+        "role": "patient",
+        "specialty": ""
+      },
+      "-O7h-Xc92WmJXH2ef5Bk": {
+        "age": "22",
+        "contact_number": "7507546319",
+        "email": "guru@gmail.com",
+        "gender": "male",
+        "hospital_id": "",
+        "location": "Pune",
+        "name": "Guru",
+        "password": "$2b$12$MSZP3YMA3AXB4fMwJU2iMuEkHTxHXma2qAXovQeA.PiYlNN0uZoYq",
+        "role": "patient",
+        "specialty": ""
+      }
+    }
+  }
+}

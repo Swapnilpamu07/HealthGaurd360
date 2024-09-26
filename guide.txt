@@ -1,0 +1,6 @@
+OPEN The CLient in Integrated Terminal 
+>> npm install
+>> npm run build
+
+OPEN The Server In Integrated Terminal
+>> python run2.py
