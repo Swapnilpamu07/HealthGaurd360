@@ -3,4 +3,26 @@ OPEN The CLient in Integrated Terminal
 >> npm run build
 
 OPEN The Server In Integrated Terminal
+>> pip install firebase-admin flask flask-cors bcrypt schedule vonage
+
 >> python run2.py
+
+
+Drive Link - https://drive.google.com/drive/folders/1OWcX9R-YvliYuLwiL1y57vVnkEjUUEQE?usp=sharing
+
+Check The Output Folders FOr Project Implementation
+
+Features :
+Patient 
+* Appointment Management
+* Doctor Searching
+* Disease Analysing
+* News ANd Updates
+* Chatbot
+* Map BAsed Nearby Hospital Finding
+
+Doctor 
+* Show Appointment OF patients 
+
+
+Parallel Chating Platform FOr Doctor ANd Patient
