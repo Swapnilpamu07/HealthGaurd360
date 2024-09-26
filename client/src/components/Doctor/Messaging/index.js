@@ -58,7 +58,7 @@ function MessagingComponent ( { doctorId } )
                 <div>
 
                 
-                <h2>Messages</h2>
+                 
                 <motion.div
                         className={ styles.messagingComponent }
                         initial={ { opacity: 0, x: -100 } }

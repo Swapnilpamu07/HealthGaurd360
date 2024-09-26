@@ -1,31 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
 function Header({ userType }) {
     const navigate = useNavigate();
-    const [isAuthenticated, setIsAuthenticated] = useState(true); // Default to true for initial load
-
-    useEffect(() => {
-        // Check if user is authenticated on component mount
-        const checkAuthStatus = async () => {
-            try {
-                const response = await fetch('/api/current_user', { method: 'GET' });
-                if (response.ok) {
-                    const data = await response.json();
-                    setIsAuthenticated(true); // User is authenticated
-                } else {
-                    setIsAuthenticated(false); // User is not authenticated
-                    navigate('/login'); // Redirect to login page
-                }
-            } catch (error) {
-                console.error('Error checking authentication:', error);
-                setIsAuthenticated(false); // Assume not authenticated on error
-                navigate('/login'); // Redirect to login page
-            }
-        };
-        checkAuthStatus();
-    }, [navigate]);
 
     const handleLogout = async () => {
         try {
@@ -38,7 +16,6 @@ function Header({ userType }) {
             const data = await response.json();
             if (response.ok) {
                 alert(data.message); // Show success message
-                setIsAuthenticated(false); // Update authentication status
                 navigate('/login'); // Redirect to login page
             } else {
                 alert('Logout failed: ' + data.message);
@@ -48,11 +25,6 @@ function Header({ userType }) {
             alert('An error occurred. Please try again.');
         }
     };
-
-    // Hide the header or provide alternative UI when not authenticated
-    if (!isAuthenticated) {
-        return null;
-    }
 
     return (
         <header className="header">
@@ -77,11 +49,10 @@ function Header({ userType }) {
                     </>
                 )}
             </nav>
-            {/* <button className="logout-button" onClick={handleLogout}>Logout</button> */}
-            <button class="logout-button" onClick={handleLogout}>
-        <div class="icon"></div>
-        <div class="text">Logout</div>
-    </button>
+            <button className="logout-button" onClick={handleLogout}>
+                <div className="icon"></div>
+                <div className="text">Logout</div>
+            </button>
         </header>
     );
 }

@@ -7,118 +7,74 @@
         border-radius: 10px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         animation: fadeIn 0.8s ease-in-out;
-}
-
-/* Title styling */
-h2 {
+    }
+    
+    /* Title styling */
+    h2 {
         text-align: center;
-
         background: linear-gradient(90deg, #17bde3, #a7e8f7, #0c7188);
         background-size: 300%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: colorChange 5s infinite ease-in-out;
-
         font-size: 26px;
         margin-bottom: 20px;
         font-family: 'Poppins', sans-serif;
-}   
-    @keyframes colorChange {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
     }
-
-/* List styling */
-ul {
+    
+    /* List styling */
+    ul {
         list-style-type: none;
-    display: flex;
-    padding: 15px;
-    margin: 20px;
-    justify-content: center;
-}
-
-li {
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
         background-color: #1a9dba;
         padding: 20px;
-        /* margin-bottom: 15px; */
         border-radius: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         transition: transform 0.3s ease, background-color 0.3s ease;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-        width: fit-content;
-        /* margin: 25px; */
-        /* margin-top: 60px; */
-}
-
-li:hover {
-        background-color: #083e55; /* Darker shade of blue */
-        color: #ffffff;
-        transform: translateY(-5px);
-}
-
-li p {
+        margin-bottom: 20px;
+    }
+    
+    /* Disease list container */
+    .diseaseList {
+        margin-top: 40px;
+    }
+    
+    .diseaseList h3 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .diseaseItem {
+        background-color: #e6f5f9;
+        padding: 15px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .diseaseItem h4 {
         margin: 0;
-        font-size: 1.1rem;
-        color: #333;
-}
-
-/* Flex container for details */
-li .details {
-        display: flex;
-        flex-direction: column;
-}
-
-/* Icons styling (assuming you use Font Awesome or similar) */
-li .icon {
-        font-size: 1.8rem;
-        color: #3673fd;
+        font-size: 20px;
+    }
+    
+    .diseaseItem p {
+        margin: 5px 0;
+    }
+    
+    .letterSelection {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .letterSelection label {
         margin-right: 10px;
-}
-
-li .status-icon {
-        font-size: 1.5rem;
-        color: #4caf50;
-}
-
-li .date-icon {
-        font-size: 1.5rem;
-        color: #ff9800;
-}
-
-/* Animation for list fade-in */
-@keyframes fadeIn {
-        from {
-                opacity: 0;
-                transform: translateY(20px);
-        }
-
-        to {
-                opacity: 1;
-                transform: translateY(0);
-        }
-}
-
-/* Status color based on appointment status */
-.confirmed {
-        color: #4caf50;
-        font-weight: bold;
-}
-
-.pending {
-        color: #ff9800;
-        font-weight: bold;
-}
-
-.cancelled {
-        color: #f44336;
-        font-weight: bold;
-}
-
-/* Button style for adding new appointments (optional) */
-.add-button {
+    }
+    
+    /* Button style for adding new appointments (optional) */
+    .addButton {
         background-color: #3673fd;
         color: white;
         border: none;
@@ -128,28 +84,16 @@ li .date-icon {
         font-size: 1rem;
         font-family: 'Poppins', sans-serif;
         margin-top: 20px;
-        transition: background-color 0.3s ease;
         display: block;
         margin-left: auto;
         margin-right: auto;
-}
-
-.add-button:hover {
-        background-color: #2859b0;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 600px) {
-        li {
-                flex-direction: column;
-                text-align: center;
+    }
+    
+    /* Media queries for responsiveness */
+    @media (max-width: 600px) {
+        .diseaseItem {
+            flex-direction: column;
+            text-align: center;
         }
-
-        li .details {
-                margin-bottom: 15px;
-        }
-
-        li .icon {
-                margin-bottom: 10px;
-        }
-}
+    }
+    

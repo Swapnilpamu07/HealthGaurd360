@@ -35,7 +35,7 @@ const Login=() =>
                         const data=await response.json();
                         if ( response.ok )
                         {
-                                console.log("Login successful, navigating to:", role === 'doctor' ? '/doctor_dashboard' : '/patient_dashboard');
+                                console.log("Login successful, navigating to:", role === 'doctor' ? '/doctor-dashboard' : '/patient-dashboard');
                                 // Navigate to dashboard based on role
                                 navigate( role==='doctor'? '/doctor-dashboard':'/patient-dashboard' );
                         } else
